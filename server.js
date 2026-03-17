@@ -8,7 +8,7 @@ app.use(cors());
 app.use(express.json());
 app.use(express.static('public'));
 
-const uri = "mongodb+srv://whimsycafeofficial:WUF9GW8HctTyNkyj@cluster0.xf19ewb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+const uri = "mongodb+srv://whimsy:<whimsy123>@cluster0.kx67hbl.mongodb.net/?appName=Cluster0";
 const client = new MongoClient(uri);
 
 // Serve HTML files
